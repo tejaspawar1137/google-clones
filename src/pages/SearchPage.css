@@ -1,0 +1,57 @@
+.searchPage {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    background-color: white;
+    position: sticky;
+    z-index: 12222;
+    top: 0;
+}
+.searchPage__header {
+
+
+}
+
+.searchPage__options {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.searchPage__options > .MuiSvgIcon-root {
+    font-size: 22px;
+    color: gray;
+
+}
+.searchPage__options > a {
+    margin-left: 5px;
+    color: gray;
+    text-decoration: none;
+}
+.searchPage__img {
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.searchPage__results {
+    margin: 20px 140px;
+    }
+.searchPage__resultCount {
+    margin-bottom: 10px;
+}
+.searchPage__resultSnippet {
+    margin-top: 10px;
+}
+.searchPage__resultTitle {
+    text-decoration: none;
+}
+.searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
